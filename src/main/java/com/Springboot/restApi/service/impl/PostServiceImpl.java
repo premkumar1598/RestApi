@@ -30,7 +30,7 @@ public class PostServiceImpl implements PostService{
 	private ModelMapper mapper;
 	// @autowired not needed if one constructor is in after 4.3 version.
 	public PostServiceImpl(PostRepository postRepository,ModelMapper mapper) {
-		super();
+
 		this.postRepository = postRepository;
 		this.mapper=mapper;
 	}
